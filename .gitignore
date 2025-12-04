@@ -46,3 +46,6 @@ release
 release.zip
 system/dol
 system/patch-bb/data
+
+# editor related
+.vscode/
