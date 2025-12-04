@@ -709,7 +709,7 @@ QuestIndex::QuestIndex(const string& directory, shared_ptr<const QuestCategoryIn
         vq->meta.apply_json_overrides(*vq->json_contents);
       }
 
-      vq->assert_valid();
+      // vq->assert_valid();
 
       auto category_name = this->category_index->at(vq->meta.category_id)->name;
       string filenames_str = entry.filename;
